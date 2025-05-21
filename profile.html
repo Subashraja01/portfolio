@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subash C | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #2f2f2f;
+      scroll-behavior: smooth;
+    }
+    header {
+      position: relative;
+      background: linear-gradient(135deg, #d0f0fd, #f0fff5);
+      text-align: center;
+      padding: 60px 20px;
+      overflow: hidden;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: -40px;
+      left: -40px;
+      width: 250px;
+      height: 250px;
+      background: #cce3f3;
+      border-radius: 50%;
+      z-index: 0;
+    }
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border: 5px solid white;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      margin: 10px 0;
+      position: relative;
+      z-index: 1;
+    }
+    header p {
+      font-size: 1.1em;
+      color: #1d3c34;
+      position: relative;
+      z-index: 1;
+    }
+    nav {
+      background-color: #003b4a;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    section {
+      margin: 60px 0;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      color: #2d6a4f;
+      border-bottom: 2px solid #a5c3aa;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 15px 0;
+    }
+    a {
+      color: #1d3c34;
+    }
+    footer {
+      background-color: #dceef2;
+      text-align: center;
+      padding: 30px;
+      color: #2f4f4f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Image.jpg" alt="Subash C">
+    <h1>Subash C</h1>
+    <p>Aspiring Software Engineer | Java | SQL | Flutter</p>
+    <p>Tirunelveli, Tamil Nadu</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>I am an aspiring Software Engineer with a well-rounded skill set in mobile app development, Java, and SQL. During my internship at Srishti Innovative, I developed a WhatsApp clone user interface using Flutter and Dart, which helped me refine my skills in building responsive, cross-platform applications. Alongside my mobile development experience, I am proficient in Java and SQL, which I believe are essential tools for developing robust and scalable software solutions. With a passion for clean code and continuous learning, I am eager to contribute to impactful projects and grow as a versatile software engineer.</p>
+    </section>
+
+    <section id="experience" data-aos="fade-up">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Srishti Innovative – Mobile App Development Intern</strong> (Jul 2024 – Aug 2024)<br />
+        Developed Flutter UI screens and implemented navigation like WhatsApp.</li>
+        <li><strong>Sundaram Clayton Pvt Ltd – Quality Assistant</strong> (Jun 2021 – Feb 2022)<br />
+        Conducted quality inspections and supported ISO documentation.</li>
+      </ul>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Bus Reservation System</strong> – Java, JDBC, PostgreSQL<br />
+        Console-based seat booking and cancellation system.</li>
+        <li><strong>WhatsApp UI Clone</strong> – Flutter, Dart<br />
+        Multi-screen chat interface mimicking WhatsApp.</li>
+      </ul>
+    </section>
+
+    <section id="education" data-aos="fade-up">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>SCAD College of Engineering and Technology</strong> – B.E. Computer Science (2022–Present)<br />
+        CGPA: 7.0</li>
+        <li><strong>SCAD Polytechnic College</strong> – Diploma in Mechanical Engineering (2017–2020)<br />
+        73%</li>
+        <li><strong>K.A.M.P Meerania Hr. Sec. School</strong> – SSLC (2016–2017)<br />
+        85.8%</li>
+      </ul>
+    </section>
+
+    <section id="certifications" data-aos="fade-up">
+      <h2>Certifications</h2>
+      <ul>
+        <li><a href="https://www.hackerrank.com/certificates/e8dd9829b1fe" target="_blank">Software Engineer Intern – HackerRank</a></li>
+        <li><a href="https://www.hackerrank.com/certificates/iframe/89c4a0f135f5" target="_blank">Java Core (Basic) – HackerRank</a></li>
+        <li><a href="http://ude.my/UC-53cba180-c82d-4598-8441-ef0bee122581" target="_blank">Java (Basic) – Udemy</a></li>
+        <li><a href="https://www.hackerrank.com/certificates/0745367465ff" target="_blank">SQL – HackerRank</a></li>
+      </ul>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:subash.chellappa.01@gmail.com">subash.chellappa.01@gmail.com</a></li>
+        <li>Phone: <a href="tel:+916379325538">+91 63793 25538</a></li>
+        <li>GitHub: <a href="https://github.com/Subashraja01">Subashraja01</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/c-subash-518aa0251">c-subash-518aa0251</a></li>
+        <li>HackerRank: <a href="https://www.hackerrank.com/subash_chellapp1">subash_chellapp1</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Subash C. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
+</body>
+</html>
